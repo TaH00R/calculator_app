@@ -16,10 +16,13 @@ This application is structured into two main components: the main screen (`homep
 * **Responsive UI:** Designed to look great on various mobile screen sizes.
 * **Modern Aesthetic:** Utilizes a dark color palette with a glowing, smooth gradient effect on the display and rounded corners on all interactive elements.
 
-![SleekCalc Screenshot](demo/final.png)
+##  Screenshot
 
+<p align="center">
+  <img src="demo/final.png" alt="SleekCalc Screenshot" width="300">
+</p>
 
-## 📁 Project Structure
+##  Project Structure
 
 The application is cleanly separated into three primary files:
 
@@ -31,8 +34,8 @@ The application is cleanly separated into three primary files:
 
 ##  Technology Stack
 
-* **Framework:** Flutter
-* **Language:** Dart
+* **Framework:** Flutter  
+* **Language:** Dart  
 * **External Package:** `math_expressions` (for handling complex mathematical string evaluation)
 
 ##  Getting Started
@@ -45,16 +48,18 @@ To run this project, you need to have Flutter installed on your machine.
 
 ### Installation
 
-1.  **Clone the repository:**
+1. **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/sleekcalc.git](https://github.com/your-username/sleekcalc.git)
+    git clone https://github.com/your-username/sleekcalc.git
     cd sleekcalc
     ```
-2.  **Install dependencies:** This will fetch the necessary packages, including `math_expressions`.
+
+2. **Install dependencies:**
     ```bash
     flutter pub get
     ```
-3.  **Run the app:**
+
+3. **Run the app:**
     ```bash
     flutter run
     ```
